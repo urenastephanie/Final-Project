@@ -1,0 +1,36 @@
+For this week's lab assignment, you will provide a progress report on your Final Project. 
+This progress report will include outlines of the major files you plan to include in your Final Project (including at least: one documentation file, one Python script file, and one test file).
+
+Final Project Progress Report: Hangman-Medicine Edition
+
+1. Brief Description of Planned Project:
+For my final project, I'm developing a Hangman-style game focused on medical terms. Players guess letters to uncover the medical term, with the game providing descriptions of each term upon completion. 
+GIFs will be included as interactive clues. I am planning on providing a maximum number of 3 per word. (I am still debating if after the three clues were provided, the subject still cannot guess the word, I can provide a help bottom).
+
+2. Major Files:
+a) Python Script File: hangman_medicine.py
+This file will contain the main code for the Hangman-Medicine game, including functions for word selection, displaying the word, checking guesses, and displaying GIFs.
+choose_word(): Selects a random medical term from a predefined list.
+display_word(): Displays the current state of the word being guessed.
+check_guess(): Validates guessed letters and updates display accordingly.
+display_gif(): Displays GIFs as clues within the game interface.
+
+b) Documentation File: README.md
+This file will provide documentation for the Hangman-Medicine game, including an overview of the project,and gameplay instructions.
+
+c) Test File: test_hangman_medicine.py
+This file will contain unit tests to ensure the correctness of the functions in hangman_medicine.py, covering word selection, word display, guess validation, and GIF display.
+Unit tests for choose_word(), display_word(), check_guess(), and display_gif() functions.
+
+Progress Overview:
+Set up project structure and files.
+Implemented choose_word(), display_word(), and check_guess() functions.
+Drafted initial version of README.md.
+
+Next Steps:
+Complete integration of GIFs and refine display.
+Write comprehensive unit tests for all functions.
+Polish README.md documentation.
+Conduct thorough testing and debugging.
+Research and collect medical terms.
+Start integration of GIFs for interactive clues.
