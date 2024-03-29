@@ -16,11 +16,18 @@ check_guess(): Validates guessed letters and updates display accordingly.
 display_gif(): Displays GIFs as clues within the game interface.
 
 b) Documentation File: README.md
-This file will provide documentation for the Hangman-Medicine game, including an overview of the project,and gameplay instructions.
+This file will provide documentation for the Hangman-Medicine game, including an overview of the project, and gameplay instructions.
+Overview: it will provide a brief description of the project, introducing the Hangman-Medicine game and its focus on medical terms.
+Gameplay Instructions: there will be instructions on how to play the game, including the objective, rules, and controls.
+Project Structure: outlines the structure of the project, including file organization and the purpose of each file.
+Usage Examples: there will be an example including how to start a game, make guesses, and interpret GIF clues.
 
 c) Test File: test_hangman_medicine.py
 This file will contain unit tests to ensure the correctness of the functions in hangman_medicine.py, covering word selection, word display, guess validation, and GIF display.
-Unit tests for choose_word(), display_word(), check_guess(), and display_gif() functions.
+Unit tests for choose_word(): Verifies that the word selection function properly selects a medical term from the predefined list.
+Unit tests for display_word(): Ensures that the word display function accurately presents the current state of the word, including revealed and unrevealed letters.
+Unit tests for check_guess(): Validates the guess validation logic, confirming that correct guesses are processed appropriately and incorrect guesses are handled correctly.
+Unit tests for display_gif(): Verifies the functionality of displaying GIF clues within the game interface, ensuring that the clues are presented correctly and enhancing the gameplay experience.
 
 Progress Overview:
 Set up project structure and files.
@@ -28,7 +35,7 @@ Implemented choose_word(), display_word(), and check_guess() functions.
 Drafted initial version of README.md.
 
 Next Steps:
-Complete integration of GIFs and refine display.
+Complete integration of GIFs and refine the display.
 Write comprehensive unit tests for all functions.
 Polish README.md documentation.
 Conduct thorough testing and debugging.
