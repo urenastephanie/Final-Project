@@ -1,0 +1,39 @@
+# Hangman-Medicine Game
+
+## Overview
+Hangman-Medicine is a fun and educational game where players guess medical terms letter by letter. With each correct guess, players uncover more of the term, and at the end of the game, they receive a description of the medical term they guessed.
+
+## Installation
+1. Clone the repository to your local machine:
+
+2. Navigate to the project directory:
+
+
+## How to Play
+1. Run the `hangman_medicine.py` script.
+2. You'll be presented with a blank space representing the medical term and a set of dashes representing the number of letters in the term.
+3. Guess letters one by one by typing them and pressing enter.
+4. If the guessed letter is correct, it will be revealed in the word. If it's incorrect, part of the hangman will be drawn.
+5. Continue guessing until you either uncover the entire word or run out of attempts.
+6. At the end of the game, you'll receive a description of the medical term you guessed.
+
+## Word List
+The game includes a variety of medical terms, including but not limited to:
+- Anatomy
+- Physiology
+- Neurology
+- Cardiology
+- Dermatology
+- Oncology
+- Psychiatry
+- Orthopedics
+- Endocrinology
+- Gastroenterology
+- Pulmonology
+
+## Credits
+- GIFs sourced from [Giphy](https://giphy.com/)
+- Word list compiled from medical textbooks and online resources
+
+## License
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
